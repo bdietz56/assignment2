@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="Bradley Dietz" content="bdietz56">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="JS/myScript.js"></script>
+  </head>
+  <body>
+    <header>
+      <b class="header">What Do you Know about our States?</b>
+    </header>
+    <div id = "submit">
+      <form name = "statesForm" onsubmit="return valaidate_form_answers()" method="post">
+        How many states are there?<br>
+        <input id ="id1" type = "number" name = "states"><br><br>
+        What is the largest State by Area?<br>
+        <input id ="id12" type = "text" name = "largeState"><br><br>
+        What is the Largest US City?<br>
+        <input id ="id3" type = "text" name = "largestCity"><br><br>
+        What is the Largest City in Texas?<br>
+        <input id ="id4" type = "text" name = "texasCity"><br><br>
+        What State has the highest population?<br>
+        <input id ="id5" type = "text" name = "LargestPop"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
